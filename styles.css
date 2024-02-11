@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.left-side-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side-container,img{
+    height: 100vh;
+    width:35vw; 
+    margin: 0;
+}
+
+.right-side-para{
+    margin-left: 5vw;
+    margin-top:5vh
+}
+
+.right-side-form-container{
+    display: flex;
+    flex-direction: column;
+    background-color:wheat;
+    border: white;
+    padding:10px
+}
+
+.right-side-form-container > form{
+    display: flex;
+    gap:15px;
+    margin-left: 3vw;
+}
+
+.right-side-form-container > p {
+    margin-left: 3vw;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.left-side-form,
+.right-side-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    margin-bottom: 5vh;
+}
+
+.right-side-signup{
+    padding:10px;
+}
+
+.right-side-signup button,
+.right-side-signup p{
+    margin-left: 3vw;
+}
+
+.right-side-signup button{
+    margin-top:30px;
+    padding:10px;
+    height: auto;
+    width:200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.right-side-signup a{
+    font-weight: bolder;
+    color:wheat;
+}
+
+
+
+
